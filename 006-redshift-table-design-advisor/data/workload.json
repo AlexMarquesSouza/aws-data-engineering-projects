@@ -1,0 +1,1 @@
+{"table":"fact_sales","size_gb":850,"join_columns":{"customer_id":82,"product_id":12},"filter_columns":{"sale_date":91,"region":20},"updates_per_day":500000}

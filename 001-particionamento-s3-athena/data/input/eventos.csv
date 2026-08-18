@@ -1,0 +1,5 @@
+evento_id,ocorrido_em,tipo,usuario_id
+evt-1,2026-08-02T10:15:00Z,login,u-1
+evt-2,2026-08-02T11:00:00Z,compra,u-2
+evt-3,2026-08-03T08:30:00Z,logout,u-1
+evt-4,2026-08-04T09:45:00Z,login,u-3

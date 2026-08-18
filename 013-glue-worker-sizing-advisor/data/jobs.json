@@ -1,0 +1,1 @@
+{"jobs":[{"name":"daily-orders","input_gb":40,"memory_bound":false},{"name":"customer-join","input_gb":180,"memory_bound":true},{"name":"clickstream-backfill","input_gb":800,"memory_bound":false}]}

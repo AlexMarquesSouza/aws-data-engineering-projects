@@ -1,0 +1,1 @@
+{"sensitive_columns":{"sales.customers":["email","tax_id"],"sales.orders":["card_number"]}}

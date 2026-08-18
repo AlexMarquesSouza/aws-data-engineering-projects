@@ -1,0 +1,4 @@
+producer,records_per_second,kb_per_record,partition_keys
+mobile,700,1,5000
+iot,900,0.5,3000
+partner,100,8,5

@@ -1,0 +1,4 @@
+principal,database,table,permission,columns
+role/finance-analyst,sales,orders,SELECT,order_id;amount;order_date
+role/data-engineer,sales,customers,SELECT,*
+role/support,sales,customers,SELECT,customer_id;email

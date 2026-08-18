@@ -1,0 +1,45 @@
+site_name: Radar de Engenharia de Dados — AWS
+site_description: Projetos práticos, locais e incrementais de Engenharia de Dados
+use_directory_urls: false
+docs_dir: .
+site_dir: ../site-local/AWS
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+    primary: orange
+    accent: amber
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+exclude_docs: |
+  .git/**
+  **/.git/**
+  **/__pycache__/**
+  **/data/**
+  **/src/**
+  **/tests/**
+  mkdocs.yml
+nav:
+  - Início: README.md
+  - Padrão didático: docs/PADRAO-DIDATICO.md
+  - 'Projeto 00 — Configuração do ambiente AWS': 000-configuracao-ambiente/README.md
+  - 'Particionamento de eventos para S3 e Athena': 001-particionamento-s3-athena/README.md
+  - 'Detector de schema drift antes do AWS Glue': 002-detector-schema-drift-glue/README.md
+  - 'Job bookmark incremental no AWS Glue': 003-job-bookmark-glue/README.md
+  - 'Retentativas e dead-letter com Amazon SQS': 004-sqs-retry-dlq/README.md
+  - 'Workflow ETL com Retry e Catch': 005-step-functions-retry-catch/README.md
+  - 'Advisor de desenho físico para Redshift': 006-redshift-table-design-advisor/README.md
+  - 'Detector de hot partition keys no DynamoDB': 007-dynamodb-hot-key-detector/README.md
+  - 'Planejador de shards do Kinesis': 008-kinesis-shard-planner/README.md
+  - 'Qualidade de dados com DQDL': 009-glue-data-quality-dqdl/README.md
+  - 'Auditor de permissões do AWS Lake Formation': 010-lake-formation-permission-auditor/README.md
+  - 'Verificador de compatibilidade do Glue Schema Registry': 011-glue-schema-compatibility-checker/README.md
+  - 'Auditor de política IAM para jobs AWS Glue': 012-glue-job-iam-policy-auditor/README.md
+  - 'Advisor de workers para jobs AWS Glue': 013-glue-worker-sizing-advisor/README.md

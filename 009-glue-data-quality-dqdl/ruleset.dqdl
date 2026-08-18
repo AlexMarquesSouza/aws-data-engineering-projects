@@ -1,0 +1,6 @@
+Rules = [
+  IsComplete "order_id",
+  IsUnique "order_id",
+  IsComplete "customer_id",
+  ColumnValues "amount" > 0
+]
