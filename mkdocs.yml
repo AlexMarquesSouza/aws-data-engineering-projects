@@ -29,6 +29,7 @@ exclude_docs: |
 nav:
   - Início: README.md
   - Padrão didático: docs/PADRAO-DIDATICO.md
+  - Publicar o site: docs/PUBLICAR-SITE.md
   - 'Projeto 00 — Configuração do ambiente AWS': 000-configuracao-ambiente/README.md
   - 'Particionamento de eventos para S3 e Athena': 001-particionamento-s3-athena/README.md
   - 'Detector de schema drift antes do AWS Glue': 002-detector-schema-drift-glue/README.md
